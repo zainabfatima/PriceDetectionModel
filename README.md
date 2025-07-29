@@ -44,37 +44,9 @@ Sarimax-Lng-Prices-Prediction/
 ├── TimeSeries (1).ipynb            # Additional experiments or older version
 ├── README.md                       # Project overview and usage
 ⚙️ Requirements
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib statsmodels scikit-learn plotly
-▶️ How to Run
-Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/moaaz12-web/Sarimax-Lng-Prices-Prediction
-cd Sarimax-Lng-Prices-Prediction
-Open the notebook:
 
-Use Jupyter or Google Colab to open:
 
-bash
-Copy
-Edit
-Predicting_LPG_prices.ipynb
-Upload your CSV (or use provided dataset)
-
-Make sure your CSV file has date and numerical value columns like:
-
-yaml
-Copy
-Edit
-Column1.load_start_date,LNG converted (total)
-2022-01-01, 1000
-2022-01-02, 1050
-...
 📤 Input Format
 A CSV with two columns:
 
